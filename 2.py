@@ -1,9 +1,4 @@
-
-user_input = input("Enter at least 5 numbers separated by spaces: ")
-
-numbers = list(map(int, user_input.split()))
-
-
+numbers = [1,2,3,4,5,6,7,8,9,10]
 if len(numbers) < 5:
     print("Please enter at least 5 numbers.")
 else:
